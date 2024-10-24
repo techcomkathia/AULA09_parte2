@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Plano de fundo barra de navegação: #1E1F22
+Títulos e plano de fundo botões: #FFAE00
+Plano de fundo cards: RGBA(37, 37, 37, 0.8)
+Textos: #ffffff
+ */
+:root{
+    --corNavegacao: #1E1F22;
+    --corTituloBtn: #FFAE00;
+    --corCard: rgba(37, 37, 37, 0.8);
+    --corTextos: #ffffff;
+}
+
+body{
+    background-image:url(imagens/bg.png) ;
+    color:aqua;
+}
+
+header{
+    background-color: var(--corNavegacao);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--corTextos);
+    margin: 10px;
+    font-size: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
